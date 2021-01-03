@@ -1,10 +1,9 @@
 package com.springboot.netflix.oss.feign.controller;
 
 import com.springboot.netflix.oss.feign.client.UserClient;
-import com.springboot.netflix.oss.feign.domain.UserResponse;
+import com.springboot.netflix.oss.feign.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -15,9 +14,18 @@ public class BaseController {
     private UserClient userClient;
 
     @GetMapping("/users")
-    public List<UserResponse> retrieveAllUsers() {
-        return userClient.getUsers();
+    public List<User> retrieveAllUsers() {
+        return userClient.fetchUsers();
     }
 
+    @PostMapping("/users")
+    public User createUser(@RequestBody User userToBeCreated) {
+        return userClient.createUser(userToBeCreated);
+    }
+
+    @GetMapping("/users/{userId}")
+    public User fetchUserById(@PathVariable String userId) {
+        return userClient.fetchUserById(userId);
+    }
 
 }

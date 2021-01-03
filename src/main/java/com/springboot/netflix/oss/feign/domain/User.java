@@ -17,7 +17,7 @@ import java.util.Map;
     "website",
     "company"
 })
-public class UserResponse {
+public class User {
 
     @JsonProperty("id")
     private Integer id;
