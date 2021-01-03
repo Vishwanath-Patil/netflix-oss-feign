@@ -1,5 +1,6 @@
 HELP.md
 target/
+.mvn/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -35,3 +36,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+echo mvnw >> .gitignore $ git rm --cached mvnw rm 'mvnw' $ git commit -m "Start ignoring mvnw"
+echo mvnw.cmd >> .gitignore $ git rm --cached mvnw.cmd rm 'mvnw.cmd' $ git commit -m "Start ignoring mvnw.cmd"
