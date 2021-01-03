@@ -17,8 +17,6 @@ public class NetflixOssFeignApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(NetflixOssFeignApplication.class, args);
-
-
     }
 
 }
