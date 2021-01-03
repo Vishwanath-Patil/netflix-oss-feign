@@ -21,7 +21,7 @@ logs
 *.ipr
 .mvn
 mvnw
-mvnw.cmd
+*.cmd
 
 ### NetBeans ###
 /nbproject/private/
