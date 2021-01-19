@@ -1,10 +1,10 @@
-package com.springboot.netflix.oss.feign;
+package com.springboot.spring.cloud.openfeign.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NetflixOssFeignApplicationTests {
+class OpenFeignApplicationTests {
 
 	@Test
 	void contextLoads() {

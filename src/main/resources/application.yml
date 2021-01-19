@@ -4,7 +4,7 @@ feign:
       default:
         connectTimeout: 2000
         readTimeout: 2000
-        errorDecoder: com.springboot.netflix.oss.feign.exceptionhandler.CustomExceptionHandler
+        errorDecoder: CustomExceptionHandler
 
   hystrix:
     enabled: true

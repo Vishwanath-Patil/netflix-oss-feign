@@ -1,4 +1,4 @@
-package com.springboot.netflix.oss.feign;
+package com.springboot.spring.cloud.openfeign.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class NetflixOssFeignApplication {
+public class OpenFeignApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NetflixOssFeignApplication.class, args);
+        SpringApplication.run(OpenFeignApplication.class, args);
     }
 
 }

@@ -1,5 +1,5 @@
 
-package com.springboot.netflix.oss.feign.domain;
+package com.springboot.spring.cloud.openfeign.demo.domain;
 
 import com.fasterxml.jackson.annotation.*;
 

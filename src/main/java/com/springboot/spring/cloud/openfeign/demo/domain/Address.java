@@ -1,5 +1,5 @@
 
-package com.springboot.netflix.oss.feign.domain;
+package com.springboot.spring.cloud.openfeign.demo.domain;
 
 import com.fasterxml.jackson.annotation.*;
 
@@ -25,7 +25,7 @@ public class Address {
     @JsonProperty("zipcode")
     private String zipcode;
     @JsonProperty("geo")
-    private com.springboot.netflix.oss.feign.domain.Geo geo;
+    private Geo geo;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
@@ -70,12 +70,12 @@ public class Address {
     }
 
     @JsonProperty("geo")
-    public com.springboot.netflix.oss.feign.domain.Geo getGeo() {
+    public Geo getGeo() {
         return geo;
     }
 
     @JsonProperty("geo")
-    public void setGeo(com.springboot.netflix.oss.feign.domain.Geo geo) {
+    public void setGeo(Geo geo) {
         this.geo = geo;
     }
 

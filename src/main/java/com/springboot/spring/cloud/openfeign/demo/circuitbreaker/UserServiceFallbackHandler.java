@@ -1,7 +1,7 @@
-package com.springboot.netflix.oss.feign.circuitbreaker;
+package com.springboot.spring.cloud.openfeign.demo.circuitbreaker;
 
-import com.springboot.netflix.oss.feign.client.UserClient;
-import com.springboot.netflix.oss.feign.domain.User;
+import com.springboot.spring.cloud.openfeign.demo.client.UserClient;
+import com.springboot.spring.cloud.openfeign.demo.domain.User;
 import org.springframework.stereotype.Component;
 
 import java.util.Collections;

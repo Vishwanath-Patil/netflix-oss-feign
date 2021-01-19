@@ -1,7 +1,7 @@
-package com.springboot.netflix.oss.feign.controller;
+package com.springboot.spring.cloud.openfeign.demo.controller;
 
-import com.springboot.netflix.oss.feign.client.UserClient;
-import com.springboot.netflix.oss.feign.domain.User;
+import com.springboot.spring.cloud.openfeign.demo.client.UserClient;
+import com.springboot.spring.cloud.openfeign.demo.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

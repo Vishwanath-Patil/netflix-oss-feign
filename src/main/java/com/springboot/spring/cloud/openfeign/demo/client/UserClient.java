@@ -1,7 +1,7 @@
-package com.springboot.netflix.oss.feign.client;
+package com.springboot.spring.cloud.openfeign.demo.client;
 
-import com.springboot.netflix.oss.feign.circuitbreaker.UserServiceFallbackHandler;
-import com.springboot.netflix.oss.feign.domain.User;
+import com.springboot.spring.cloud.openfeign.demo.circuitbreaker.UserServiceFallbackHandler;
+import com.springboot.spring.cloud.openfeign.demo.domain.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,5 +1,5 @@
 
-package com.springboot.netflix.oss.feign.domain;
+package com.springboot.spring.cloud.openfeign.demo.domain;
 
 import com.fasterxml.jackson.annotation.*;
 
@@ -34,7 +34,7 @@ public class User {
     @JsonProperty("website")
     private String website;
     @JsonProperty("company")
-    private com.springboot.netflix.oss.feign.domain.Company company;
+    private Company company;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
@@ -109,12 +109,12 @@ public class User {
     }
 
     @JsonProperty("company")
-    public com.springboot.netflix.oss.feign.domain.Company getCompany() {
+    public Company getCompany() {
         return company;
     }
 
     @JsonProperty("company")
-    public void setCompany(com.springboot.netflix.oss.feign.domain.Company company) {
+    public void setCompany(Company company) {
         this.company = company;
     }
 

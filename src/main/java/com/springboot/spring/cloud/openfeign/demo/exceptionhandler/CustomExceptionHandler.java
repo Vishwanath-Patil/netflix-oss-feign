@@ -1,4 +1,4 @@
-package com.springboot.netflix.oss.feign.exceptionhandler;
+package com.springboot.spring.cloud.openfeign.demo.exceptionhandler;
 
 import feign.Response;
 import feign.codec.ErrorDecoder;
